@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Αυτοκίνητα προς Πώληση</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background:#333; color:#fff; text-align:center; padding:16px; }
+    .container { max-width:1000px; margin:0 auto; padding:20px; }
+    .card { border:1px solid #ddd; border-radius:8px; margin-bottom:16px; display:flex; gap:16px; padding:12px; align-items:center; }
+    .card img { width:200px; height:120px; object-fit:cover; border-radius:4px; }
+    .info h3 { margin:0 0 6px; }
+    .info p { margin:4px 0; color:#333; }
+    footer { text-align:center; color:#666; padding:12px; font-size:14px; }
+    @media(max-width:600px){ .card{flex-direction:column; align-items:flex-start;} .card img{width:100%; height:auto;} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Αυτοκίνητα προς Πώληση</h1>
+    <p>Επικοινωνία: 69x xxx xxxx — email@example.com</p>
+  </header>
+  <div class="container">
+    <div class="card">
+      <img src="https://via.placeholder.com/200x120?text=Car+1" alt="Car 1">
+      <div class="info">
+        <h3>BMW 320d — 2017 — €18.500</h3>
+        <p>Χιλιόμετρα: 85.000 km — Diesel — Αυτόματο</p>
+        <p>Άριστη κατάσταση, 1ο χέρι, πλήρες ιστορικό σέρβις.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200x120?text=Car+2" alt="Car 2">
+      <div class="info">
+        <h3>Volkswagen Golf — 2015 — €10.900</h3>
+        <p>Χιλιόμετρα: 120.000 km — Βενζίνη — Manual</p>
+        <p>Πολύ οικονομικό, πρόσφατο σέρβις και ΚΤΕΟ.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200x120?text=Car+3" alt="Car 3">
+      <div class="info">
+        <h3>Fiat Panda — 2016 — €6.200</h3>
+        <p>Χιλιόμετρα: 90.000 km — Βενζίνη — Manual</p>
+        <p>Ιδανικό για πόλη, χαμηλή κατανάλωση, καλή τιμή.</p>
+      </div>
+    </div>
+  </div>
+  <footer>© 2025 — Δωρεάν site με GitHub Pages</footer>
+</body>
+</html>
